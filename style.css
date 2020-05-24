@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    /* more on this crazy alphanumerical value in a minute! */
+    
     color: #39a6b2;
     font-family: Arial, Helvetica, sans-serif;
     }
@@ -59,7 +59,8 @@ section {
     padding: 60px;
 }
 /* Hero Style Start */
-.hero {
+
+.hero  {
     background-image: url("./images/hero-bg.jpg");
     height: 600px;
     background-size: cover;
