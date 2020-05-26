@@ -151,9 +151,9 @@ section {
 }
 /* Hero Style End */
 
-.intro {
+/*.intro {
     text-align: center;
-}
+}*/
 
 .intro p {
     line-height: 1.7;
@@ -161,20 +161,21 @@ section {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .steps {
-    text-align: center;
+   /* text-align: center;*/
     background: #fce138;
 }
 
 .section-title {
+    border-bottom: 3px solid;
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
+    /*margin-bottom: 35px;
     padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    display: inline-block;
+    display: inline-block;*/
 }
 
 .primary-border {
@@ -232,13 +233,13 @@ section {
     width: 65%;
 }
 
-.text-left {
+/*.text-left {
     text-align: left;
 }
 
 .text-right{
     text-align: right;
-}
+}*/
 
 .trainer-bio h3 {
     font-size: 32px;
@@ -258,15 +259,16 @@ section {
 
 .section-title {
     font-size: 55px;
-    display: inline-block;
-    padding: 0 100px 20px 100px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
     border-bottom: 3px solid teal;
-    margin-bottom: 35px;
     
 }
 
 .contact {
-    text-align: center;
+    /*text-align: center;*/
     background: #024e76;
 }
 
@@ -302,4 +304,9 @@ section {
 
 .contact-info a {
     color: #fce138;
+}
+
+/*flex row*/
+.flex-row {
+    display: flex;
 }
